@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project(hmm)
+add_definitions(-std=c++11)
+set(SOURCE hmm.cpp Classifier.cpp Model.cpp Process.cpp)
+add_executable(hmm ${SOURCE})
